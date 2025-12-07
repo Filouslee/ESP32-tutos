@@ -1,0 +1,8 @@
+You NEED to install these librairies:
+-Adafruit GFX Library
+
+-Adafruit ILI9341
+
+-XPT2046_Touchscreen
+
+-Adafruit BusIO
