@@ -48,7 +48,7 @@ void loop() {
     uint8_t r = map(y, 0, 160, 0, 255);
     uint8_t g = map(y, 0, 160, 255, 0);
     uint8_t b = 128;
-    uint16_t color = tft.Color565(r, g, b);
+    uint16_t color = tft.color565(r, g, b);
     tft.drawFastHLine(0, y, 128, color);
   }
   delay(1500);
